@@ -232,5 +232,7 @@ with col12:
         use_container_width=True,
     )
 
+colv7, colm, colv8 =st.columns(3)
 
-st.button("Novo jogo", on_click=iniciar_jogo)
+with colm:
+    st.button("Novo jogo", on_click=iniciar_jogo)
