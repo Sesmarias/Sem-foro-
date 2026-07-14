@@ -152,7 +152,7 @@ with col4:
         SIMBOLOS[st.session_state.tabuleiro[3]],
         key="celula_3",
         on_click=jogar,
-        args=(4,),
+        args=(3,),
         use_container_width=True,
     )
 
