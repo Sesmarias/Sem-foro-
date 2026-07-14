@@ -8,11 +8,11 @@ st.set_page_config(page_title="Semáforo 3x4", page_icon="🚦")
 
 
 # Ordem das cores do jogo.
-CORES = ["preto", "verde", "amarelo", "vermelho"]
+CORES = ["vazio", "verde", "amarelo", "vermelho"]
 
 # Como cada cor é mostrada no ecrã.
 SIMBOLOS = {
-    "preto": "",
+    "vazio": "",
     "verde": "🟢",
     "amarelo": "🟡",
     "vermelho": "🔴",
@@ -20,7 +20,7 @@ SIMBOLOS = {
 
 # Próxima cor de cada célula.
 PROXIMA_COR = {
-    "preto": "verde",
+    "vazio": "verde",
     "verde": "amarelo",
     "amarelo": "vermelho",
     "vermelho": "vermelho",
