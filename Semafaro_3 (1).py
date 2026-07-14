@@ -126,7 +126,7 @@ with col1:
         SIMBOLOS[st.session_state.tabuleiro[0]],
         key="celula_0",
         on_click=jogar,
-        max_width=50px,
+        max_width=50,
         args=(0,),
         use_container_width=True,
     )
