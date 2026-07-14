@@ -156,7 +156,7 @@ with col4:
         use_container_width=True,
     )
 
-col5, col6, col7, col8 = st.columns(4)
+colv3, col5, col6, col7, col8, colv4 = st.columns(6)
 
 with col5:
     st.button(
@@ -194,7 +194,7 @@ with col8:
         use_container_width=True,
     )
 
-col9, col10, col11, col12 = st.columns(4)
+colv5, col9, col10, col11, col12, colv6 = st.columns(6)
 
 with col9:
     st.button(
