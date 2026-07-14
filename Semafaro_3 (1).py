@@ -227,7 +227,6 @@ with col12:
     st.button(
         SIMBOLOS[st.session_state.tabuleiro[11]],
         key="celula_11",
-        type="black",
         on_click=jogar,
         args=(11,),
         use_container_width=True,
