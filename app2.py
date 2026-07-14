@@ -8,19 +8,19 @@ st.set_page_config(page_title="Semáforo 2x2 - Tutorial", page_icon="🚦")
 
 
 # Ordem das cores do jogo.
-CORES = ["preto", "verde", "amarelo", "vermelho"]
+CORES = ["vazio", "verde", "amarelo", "vermelho"]
 
 # Como cada cor é mostrada no ecrã.
 SIMBOLOS = {
-    "preto": "⬛ Preto",
-    "verde": "🟩 Verde",
-    "amarelo": "🟨 Amarelo",
-    "vermelho": "🟥 Vermelho",
+    "vazio": "",
+    "verde": "🟢",
+    "amarelo": "🟡",
+    "vermelho": "🔴",
 }
 
 # Próxima cor de cada célula.
 PROXIMA_COR = {
-    "preto": "verde",
+    "vazio": "verde",
     "verde": "amarelo",
     "amarelo": "vermelho",
     "vermelho": "vermelho",
@@ -39,7 +39,7 @@ LINHAS_VENCEDORAS = [
 
 def iniciar_jogo():
     """Coloca o jogo no estado inicial."""
-    st.session_state.tabuleiro = ["preto", "preto", "preto", "preto"]
+    st.session_state.tabuleiro = ["vazio", "vazio", "vazio", "vazio"]
     st.session_state.jogador = 1
     st.session_state.vencedor = None
     st.session_state.mensagem = None
@@ -58,7 +58,7 @@ def verificar_vencedor():
         cor_a = st.session_state.tabuleiro[a]
         cor_b = st.session_state.tabuleiro[b]
 
-        if cor_a != "preto" and cor_a == cor_b:
+        if cor_a != "vazio" and cor_a == cor_b:
             return st.session_state.jogador
 
     return None
