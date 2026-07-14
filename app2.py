@@ -12,7 +12,7 @@ CORES = ["vazio", "verde", "amarelo", "vermelho"]
 
 # Como cada cor é mostrada no ecrã.
 SIMBOLOS = {
-    "vazio": "",
+    "vazio": " ",
     "verde": "🟢",
     "amarelo": "🟡",
     "vermelho": "🔴",
@@ -93,7 +93,7 @@ def jogar(posicao):
 garantir_estado_inicial()
 
 st.title("🚦 Jogo do Semáforo 2x2")
-st.write("Clique numa célula para mudar a cor: preto → verde → amarelo → vermelho.")
+st.write("Clique numa célula para mudar a cor: vazio → verde → amarelo → vermelho.")
 st.write("Vence quem formar duas células iguais, não pretas, numa linha, coluna ou diagonal.")
 
 if st.session_state.vencedor is None:
