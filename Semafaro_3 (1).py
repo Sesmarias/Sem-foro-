@@ -120,10 +120,6 @@ if st.session_state.mensagem:
 # Desenho simples do tabuleiro 3x4.
 colv1, col1, col2, col3, col4, colv2 = st.columns(6)
 
-st.markdown(
-    max-width: 50px,
-    unsafe_allow_html=True
-)
 
 with col1:
     st.button(
