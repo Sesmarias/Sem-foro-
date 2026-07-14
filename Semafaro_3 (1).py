@@ -8,7 +8,9 @@ import os
 import random
 from PIL import ImageTk, Image
 import winsound
- 
+import streamlit as st
+
+st.set_page_config(page_title="Semáforo)
 
 Semafaro = Tk()
 Semafaro.title("Jogo do Semáfaro (Programado por Nilson Moreira e Vánia Moreira)")
