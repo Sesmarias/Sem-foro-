@@ -123,8 +123,8 @@ colv1, col1, col2, col3, col4, colv2 = st.columns(6)
 st.markdown("""
 <style>
 div[data-testid="stButton"] > button {
-    min-width: 50px;
-    min-height: 70px;
+    max-width: 50px;
+    max-height: 70px;
     font-size: 30px;
 }
 </style>
