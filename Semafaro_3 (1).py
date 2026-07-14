@@ -50,7 +50,7 @@ LINHAS_VENCEDORAS = [
 
 def iniciar_jogo():
     """Coloca o jogo no estado inicial."""
-    st.session_state.tabuleiro = ["preto", "preto", "preto", "preto", "preto", "preto", "preto", "preto", "preto", "preto", "preto", "preto"]
+    st.session_state.tabuleiro = ["vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio", "vazio"]
     st.session_state.jogador = 1
     st.session_state.vencedor = None
     st.session_state.mensagem = None
