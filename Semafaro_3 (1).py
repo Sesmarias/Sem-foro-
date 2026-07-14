@@ -121,7 +121,8 @@ if st.session_state.mensagem:
 colv1, col1, col2, col3, col4, colv2 = st.columns(6)
 
 st.markdown(
-    max-width: 50px
+    max-width: 50px,
+    unsafe_allow_html=True,
 )
 
 with col1:
