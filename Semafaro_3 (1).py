@@ -127,7 +127,7 @@ with col1:
         key="celula_0",
         on_click=jogar,
         args=(0,),
-        max-height=30px
+        max-width=30px
         use_container_width=True,
     )
 
