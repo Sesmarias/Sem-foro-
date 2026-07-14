@@ -4,7 +4,7 @@ import streamlit as st
 # App simples para demonstrar a lógica do Jogo do Semáforo 2x2.
 # Objetivo: mostrar mudança de cor, alternância de jogadores e vencedor.
 
-st.set_page_config(page_title="Semáforo 2x2 - Tutorial", page_icon="🚦")
+st.set_page_config(page_title="Semáforo 3x4", page_icon="🚦")
 
 
 # Ordem das cores do jogo.
