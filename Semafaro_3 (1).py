@@ -70,7 +70,7 @@ def verificar_vencedor():
         cor_b = st.session_state.tabuleiro[b]
         cor_c = st.session_state.tabuleiro[c]
 
-        if cor_a != "preto" and cor_a == cor_b == cor_c:
+        if cor_a != "vazio" and cor_a == cor_b == cor_c:
             return st.session_state.jogador
 
     return None
