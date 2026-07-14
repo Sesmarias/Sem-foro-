@@ -120,6 +120,9 @@ if st.session_state.mensagem:
 # Desenho simples do tabuleiro 3x4.
 colv1, col1, col2, col3, col4, colv2 = st.columns(6)
 
+st.markdown(
+    max-width: 50px
+)
 
 with col1:
     st.button(
@@ -127,7 +130,6 @@ with col1:
         key="celula_0",
         on_click=jogar,
         args=(0,),
-        max-width=30px
         use_container_width=True,
     )
 
