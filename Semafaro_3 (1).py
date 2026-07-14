@@ -235,4 +235,4 @@ with col12:
 colv7, colm, colv8 =st.columns(3)
 
 with colm:
-    st.button("Novo jogo", on_click=iniciar_jogo)
+    st.button("Novo jogo", on_click=iniciar_jogo, use_container_width=True)
