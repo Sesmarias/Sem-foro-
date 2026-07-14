@@ -106,7 +106,7 @@ garantir_estado_inicial()
 
 st.title("🚦 Jogo do Semáforo 3x4")
 st.write("Clique numa célula para mudar a cor: preto → verde → amarelo → vermelho.")
-st.write("Vence quem formar duas células iguais, não pretas, numa linha, coluna ou diagonal.")
+st.write("Vence quem formar três células iguais, não pretas, numa linha, coluna ou diagonal.")
 
 if st.session_state.vencedor is None:
     st.info(f"Vez do Jogador {st.session_state.jogador}")
